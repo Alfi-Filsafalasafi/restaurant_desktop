@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40004B85-7721-4521-9421-2C1C26758CAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>restaurant.Form_menu_tanpa_nama</StartupObject>
+    <RootNamespace>restaurant</RootNamespace>
+    <AssemblyName>restaurant</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>restaurant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>restaurant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cetak_detail.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cetak_detail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataLaporan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataLaporan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataCetakOrder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataCetakOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data_grafik_makanan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data_grafik_makanan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="data_rangking.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>data_rangking.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form_daftar.Designer.vb">
+      <DependentUpon>Form_daftar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_daftar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_edit_profil.Designer.vb">
+      <DependentUpon>Form_edit_profil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_edit_profil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_gantipassword.Designer.vb">
+      <DependentUpon>Form_gantipassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_gantipassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_grafik_detail.Designer.vb">
+      <DependentUpon>Form_grafik_detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_grafik_detail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_grafik_maknan.Designer.vb">
+      <DependentUpon>Form_grafik_maknan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_grafik_maknan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_history_order.Designer.vb">
+      <DependentUpon>Form_history_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_history_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_manage_employee.Designer.vb">
+      <DependentUpon>Form_manage_employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_manage_employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_manage_member.Designer.vb">
+      <DependentUpon>Form_manage_member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_manage_member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_manage_menu.Designer.vb">
+      <DependentUpon>Form_manage_menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_manage_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_cashier.Designer.vb">
+      <DependentUpon>Form_menu_cashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu_cashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_chef.Designer.vb">
+      <DependentUpon>Form_menu_chef.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu_chef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_login.Designer.vb">
+      <DependentUpon>Form_login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_admin.Designer.vb">
+      <DependentUpon>Form_menu_admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu_admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_member.Designer.vb">
+      <DependentUpon>Form_menu_member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu_member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_order.Designer.vb">
+      <DependentUpon>Form_menu_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menu_tanpa_nama.Designer.vb">
+      <DependentUpon>Form_menu_tanpa_nama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menu_tanpa_nama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_order.Designer.vb">
+      <DependentUpon>Form_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_payment.Designer.vb">
+      <DependentUpon>Form_payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pelanggan.Designer.vb">
+      <DependentUpon>Form_pelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_rangking.Designer.vb">
+      <DependentUpon>Form_rangking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_rangking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_report.Designer.vb">
+      <DependentUpon>Form_report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_cetak_order.Designer.vb">
+      <DependentUpon>Form_cetak_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_cetak_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_report_detailku.Designer.vb">
+      <DependentUpon>Form_report_detailku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_report_detailku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_view_order.Designer.vb">
+      <DependentUpon>Form_view_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_view_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_view_photo.Designer.vb">
+      <DependentUpon>Form_view_photo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_view_photo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_welcome.Designer.vb">
+      <DependentUpon>Form_welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cetak_detail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cetak_detail.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_daftar.resx">
+      <DependentUpon>Form_daftar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_edit_profil.resx">
+      <DependentUpon>Form_edit_profil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_gantipassword.resx">
+      <DependentUpon>Form_gantipassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_grafik_detail.resx">
+      <DependentUpon>Form_grafik_detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_grafik_maknan.resx">
+      <DependentUpon>Form_grafik_maknan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_history_order.resx">
+      <DependentUpon>Form_history_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_manage_employee.resx">
+      <DependentUpon>Form_manage_employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_manage_member.resx">
+      <DependentUpon>Form_manage_member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_manage_menu.resx">
+      <DependentUpon>Form_manage_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_cashier.resx">
+      <DependentUpon>Form_menu_cashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_chef.resx">
+      <DependentUpon>Form_menu_chef.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_login.resx">
+      <DependentUpon>Form_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_admin.resx">
+      <DependentUpon>Form_menu_admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_member.resx">
+      <DependentUpon>Form_menu_member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_order.resx">
+      <DependentUpon>Form_menu_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menu_tanpa_nama.resx">
+      <DependentUpon>Form_menu_tanpa_nama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_order.resx">
+      <DependentUpon>Form_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_payment.resx">
+      <DependentUpon>Form_payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pelanggan.resx">
+      <DependentUpon>Form_pelanggan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_rangking.resx">
+      <DependentUpon>Form_rangking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_report.resx">
+      <DependentUpon>Form_report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_cetak_order.resx">
+      <DependentUpon>Form_cetak_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_report_detailku.resx">
+      <DependentUpon>Form_report_detailku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_view_order.resx">
+      <DependentUpon>Form_view_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_view_photo.resx">
+      <DependentUpon>Form_view_photo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_welcome.resx">
+      <DependentUpon>Form_welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DataLaporan.xsc">
+      <DependentUpon>DataLaporan.xsd</DependentUpon>
+    </None>
+    <None Include="DataLaporan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataLaporan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataLaporan.xss">
+      <DependentUpon>DataLaporan.xsd</DependentUpon>
+    </None>
+    <None Include="DataCetakOrder.xsc">
+      <DependentUpon>DataCetakOrder.xsd</DependentUpon>
+    </None>
+    <None Include="DataCetakOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataCetakOrder.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataCetakOrder.xss">
+      <DependentUpon>DataCetakOrder.xsd</DependentUpon>
+    </None>
+    <None Include="Data_grafik_makanan.xsc">
+      <DependentUpon>Data_grafik_makanan.xsd</DependentUpon>
+    </None>
+    <None Include="Data_grafik_makanan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Data_grafik_makanan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data_grafik_makanan.xss">
+      <DependentUpon>Data_grafik_makanan.xsd</DependentUpon>
+    </None>
+    <None Include="data_rangking.xsc">
+      <DependentUpon>data_rangking.xsd</DependentUpon>
+    </None>
+    <None Include="data_rangking.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>data_rangking.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="data_rangking.xss">
+      <DependentUpon>data_rangking.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayam_golek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-profiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-profiles %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand-by %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand-by.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buyer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooking %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

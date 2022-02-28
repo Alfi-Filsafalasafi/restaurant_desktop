@@ -1,0 +1,110 @@
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\bin\Debug\restaurant.exe
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\bin\Debug\restaurant.pdb
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\bin\Debug\restaurant.xml
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Resources.resources
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.vbproj.GenerateResource.Cache
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.exe
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.xml
+c:\users\rpl_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.pdb
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_login.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_admin.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_chef.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_cashier.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_member.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_employee.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_welcome.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_menu.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_edit_profil.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_member.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_order.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_view_order.resources
+C:\Users\RPL_2019\documents\visual studio 2010\Projects\restaurant\restaurant\obj\x86\Debug\restaurant.Form_payment.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.xml
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.pdb
+E:\Produktif RPL\restaurant\restaurant\bin\Debug\restaurant.exe
+E:\Produktif RPL\restaurant\restaurant\bin\Debug\restaurant.pdb
+E:\Produktif RPL\restaurant\restaurant\bin\Debug\restaurant.xml
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_edit_profil.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_employee.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_member.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_menu.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_cashier.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_chef.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_login.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_admin.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_member.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_order.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_payment.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_view_order.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Form_welcome.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.Resources.resources
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.vbproj.GenerateResource.Cache
+E:\Produktif RPL\restaurant\restaurant\obj\x86\Debug\restaurant.exe
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.exe
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.xml
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.pdb
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\bin\Debug\restaurant.exe
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\bin\Debug\restaurant.pdb
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\bin\Debug\restaurant.xml
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_daftar.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_edit_profil.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_employee.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_member.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_menu.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_cashier.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_chef.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_login.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_admin.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_member.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_order.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_payment.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_view_order.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_welcome.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Resources.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.vbproj.GenerateResource.Cache
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_order.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_history_order.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\bin\Debug\restaurant.exe.config
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_report.resources
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.vbprojResolveAssemblyReference.cache
+C:\Users\SMKN 1 PURWOSARI 17\Documents\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_report_chart.resources
+E:\project vbku\restaurant\restaurant\bin\Debug\restaurant.exe.config
+E:\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.exe
+E:\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.xml
+E:\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.pdb
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\bin\Debug\restaurant.exe.config
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.exe
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.xml
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.pdb
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\bin\Debug\restaurant.exe
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\bin\Debug\restaurant.pdb
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\bin\Debug\restaurant.xml
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.vbprojResolveAssemblyReference.cache
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_daftar.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_edit_profil.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_history_order.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_employee.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_member.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_manage_menu.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_cashier.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_chef.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_login.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_admin.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_member.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_order.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_order.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_payment.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_report.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_view_order.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_welcome.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Resources.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.vbproj.GenerateResource.Cache
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_cetak_order.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.form_grafik_makanan.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_view_photo.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_rangking.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_grafik_detail.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_report_detailku.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_pelanggan.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_menu_tanpa_nama.resources
+E:\back up from lks\backup dataku\project vbku\restaurant\restaurant\obj\x86\Debug\restaurant.Form_gantipassword.resources

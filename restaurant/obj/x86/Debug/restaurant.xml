@@ -1,0 +1,364 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+restaurant
+</name>
+</assembly>
+<members>
+<member name="T:restaurant.data_rangking.v_rangkingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:restaurant.data_rangking.v_rangkingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:restaurant.data_rangking.v_rangkingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:restaurant.data_rangking">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:restaurant.data_rangkingTableAdapters.v_rangkingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:restaurant.data_rangkingTableAdapters.TableAdapterManager.UpdateUpdatedRows(restaurant.data_rangking,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:restaurant.data_rangkingTableAdapters.TableAdapterManager.UpdateInsertedRows(restaurant.data_rangking,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:restaurant.data_rangkingTableAdapters.TableAdapterManager.UpdateDeletedRows(restaurant.data_rangking,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:restaurant.data_rangkingTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:restaurant.data_rangkingTableAdapters.TableAdapterManager.UpdateAll(restaurant.data_rangking)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:restaurant.data_rangkingTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:restaurant.data_rangkingTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:restaurant.data_rangkingTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:restaurant.Data_grafik_makanan.v_grafik_makananDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:restaurant.Data_grafik_makanan.v_grafik_makananRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:restaurant.Data_grafik_makanan.v_grafik_makananRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:restaurant.Data_grafik_makanan">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:restaurant.Data_grafik_makananTableAdapters.v_grafik_makananTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.UpdateUpdatedRows(restaurant.Data_grafik_makanan,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.UpdateInsertedRows(restaurant.Data_grafik_makanan,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.UpdateDeletedRows(restaurant.Data_grafik_makanan,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.UpdateAll(restaurant.Data_grafik_makanan)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:restaurant.Data_grafik_makananTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:restaurant.DataSet1.v_detail_orderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:restaurant.DataSet1.v_detail_orderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:restaurant.DataSet1.v_detail_orderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:restaurant.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:restaurant.DataSet1TableAdapters.v_detail_orderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:restaurant.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(restaurant.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:restaurant.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(restaurant.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:restaurant.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(restaurant.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:restaurant.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:restaurant.DataSet1TableAdapters.TableAdapterManager.UpdateAll(restaurant.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:restaurant.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:restaurant.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:restaurant.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.ayam_golek">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.box">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.burger">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.buyer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.clock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.coffee_cup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.cooking__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.eye">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.food">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.food__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.history">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.leader">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.left_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.left_arrow__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.lock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.menu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.one">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.order">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.pay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.product">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.ramen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.stand_by">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.stand_by__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.support">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.target">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.trophy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.user">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.user_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.user_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.user_e">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.user_profiles">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.user_profiles__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:restaurant.My.Resources.Resources.wage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:restaurant.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:restaurant.DataLaporan.v_laporan_rellDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:restaurant.DataLaporan.v_laporan_rellRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:restaurant.DataLaporan.v_laporan_rellRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:restaurant.DataLaporan">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:restaurant.DataLaporanTableAdapters.v_laporan_rellTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:restaurant.DataLaporanTableAdapters.TableAdapterManager.UpdateUpdatedRows(restaurant.DataLaporan,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:restaurant.DataLaporanTableAdapters.TableAdapterManager.UpdateInsertedRows(restaurant.DataLaporan,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:restaurant.DataLaporanTableAdapters.TableAdapterManager.UpdateDeletedRows(restaurant.DataLaporan,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:restaurant.DataLaporanTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:restaurant.DataLaporanTableAdapters.TableAdapterManager.UpdateAll(restaurant.DataLaporan)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:restaurant.DataLaporanTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:restaurant.DataLaporanTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:restaurant.DataLaporanTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

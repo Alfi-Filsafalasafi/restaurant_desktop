@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataLaporan" targetNamespace="http://tempuri.org/DataLaporan.xsd" xmlns:mstns="http://tempuri.org/DataLaporan.xsd" xmlns="http://tempuri.org/DataLaporan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="restaurantConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="restaurantConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.restaurant.My.MySettings.GlobalReference.Default.restaurantConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_laporan_rellTableAdapter" GeneratorDataComponentClassName="v_laporan_rellTableAdapter" Name="v_laporan_rell" UserDataComponentName="v_laporan_rellTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="restaurantConnectionString1 (MySettings)" DbObjectName="restaurant.dbo.v_laporan_rell" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_laporan_rell.*
+FROM            v_laporan_rell</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tahun" DataSetColumn="tahun" />
+              <Mapping SourceColumn="bulan" DataSetColumn="bulan" />
+              <Mapping SourceColumn="jumlah" DataSetColumn="jumlah" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataLaporan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataLaporan" msprop:Generator_UserDSName="DataLaporan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_laporan_rell" msprop:Generator_TableClassName="v_laporan_rellDataTable" msprop:Generator_TableVarName="tablev_laporan_rell" msprop:Generator_TablePropName="v_laporan_rell" msprop:Generator_RowDeletingName="v_laporan_rellRowDeleting" msprop:Generator_RowChangingName="v_laporan_rellRowChanging" msprop:Generator_RowEvHandlerName="v_laporan_rellRowChangeEventHandler" msprop:Generator_RowDeletedName="v_laporan_rellRowDeleted" msprop:Generator_UserTableName="v_laporan_rell" msprop:Generator_RowChangedName="v_laporan_rellRowChanged" msprop:Generator_RowEvArgName="v_laporan_rellRowChangeEvent" msprop:Generator_RowClassName="v_laporan_rellRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tahun" msprop:Generator_ColumnVarNameInTable="columntahun" msprop:Generator_ColumnPropNameInRow="tahun" msprop:Generator_ColumnPropNameInTable="tahunColumn" msprop:Generator_UserColumnName="tahun" type="xs:int" minOccurs="0" />
+              <xs:element name="bulan" msprop:Generator_ColumnVarNameInTable="columnbulan" msprop:Generator_ColumnPropNameInRow="bulan" msprop:Generator_ColumnPropNameInTable="bulanColumn" msprop:Generator_UserColumnName="bulan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jumlah" msprop:Generator_ColumnVarNameInTable="columnjumlah" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" msprop:Generator_UserColumnName="jumlah" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

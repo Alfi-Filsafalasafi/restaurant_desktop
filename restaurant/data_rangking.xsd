@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="data_rangking" targetNamespace="http://tempuri.org/data_rangking.xsd" xmlns:mstns="http://tempuri.org/data_rangking.xsd" xmlns="http://tempuri.org/data_rangking.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="restaurantConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="restaurantConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.restaurant.My.MySettings.GlobalReference.Default.restaurantConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_rangkingTableAdapter" GeneratorDataComponentClassName="v_rangkingTableAdapter" Name="v_rangking" UserDataComponentName="v_rangkingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="restaurantConnectionString1 (MySettings)" DbObjectName="restaurant.dbo.v_rangking" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_rangking.*
+FROM            v_rangking</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="member" DataSetColumn="member" />
+              <Mapping SourceColumn="jumlah_pemesanan" DataSetColumn="jumlah_pemesanan" />
+              <Mapping SourceColumn="id_member" DataSetColumn="id_member" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="data_rangking" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="data_rangking" msprop:Generator_UserDSName="data_rangking">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_rangking" msprop:Generator_TableClassName="v_rangkingDataTable" msprop:Generator_TableVarName="tablev_rangking" msprop:Generator_TablePropName="v_rangking" msprop:Generator_RowDeletingName="v_rangkingRowDeleting" msprop:Generator_RowChangingName="v_rangkingRowChanging" msprop:Generator_RowEvHandlerName="v_rangkingRowChangeEventHandler" msprop:Generator_RowDeletedName="v_rangkingRowDeleted" msprop:Generator_UserTableName="v_rangking" msprop:Generator_RowChangedName="v_rangkingRowChanged" msprop:Generator_RowEvArgName="v_rangkingRowChangeEvent" msprop:Generator_RowClassName="v_rangkingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="member" msprop:Generator_ColumnVarNameInTable="columnmember" msprop:Generator_ColumnPropNameInRow="member" msprop:Generator_ColumnPropNameInTable="memberColumn" msprop:Generator_UserColumnName="member">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jumlah_pemesanan" msprop:Generator_ColumnVarNameInTable="columnjumlah_pemesanan" msprop:Generator_ColumnPropNameInRow="jumlah_pemesanan" msprop:Generator_ColumnPropNameInTable="jumlah_pemesananColumn" msprop:Generator_UserColumnName="jumlah_pemesanan" type="xs:int" minOccurs="0" />
+              <xs:element name="id_member" msprop:Generator_ColumnVarNameInTable="columnid_member" msprop:Generator_ColumnPropNameInRow="id_member" msprop:Generator_ColumnPropNameInTable="id_memberColumn" msprop:Generator_UserColumnName="id_member" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
